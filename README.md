@@ -41,91 +41,99 @@ The application is deployed on **Vercel**.
 
 ---
 
-
-
----
-
----
-
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
-
 ```bash
 git clone https://github.com/ABhijit12345678/auth-application.git
-cd your-repo
+cd auth-application
+````
 
-##  2. Backend Setup
+### 2. Backend Setup
 
+```bash
 cd backend
 npm install
+```
 
-Create a .env file in the backend folder:
+Create a `.env` file in the backend folder:
 
+```
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 PORT=8082
+```
 
 Run the backend:
 
+```bash
 npm start
+```
 
-3. Frontend Setup
+### 3. Frontend Setup
 
+```bash
 cd frontend
 npm install
+```
 
 Run the frontend:
 
+```bash
 npm start
+```
 
-🚀 Deployment on Vercel
+---
 
-Both the frontend and backend are deployed on Vercel.
+## 🚀 Deployment on Vercel
 
-Frontend Deployment
+Both the **frontend** and **backend** are deployed on **Vercel**.
 
-The frontend React app is deployed on Vercel and accessible via your Vercel frontend URL.
+### Frontend Deployment
 
-The production build is automatically created by Vercel from your frontend repository.
+* The frontend React app is deployed on Vercel and accessible via your Vercel frontend URL.
+* The production build is automatically created by Vercel from your frontend repository.
 
-Backend Deployment
+### Backend Deployment
 
-The backend Node.js/Express API is deployed on Vercel as a serverless function or API endpoint.
+* The backend Node.js/Express API is deployed on Vercel as a serverless function or API endpoint.
+* Ensure your backend environment variables (`MONGO_URI`, `JWT_SECRET`) are configured in the Vercel dashboard under your backend project settings.
 
-Ensure your backend environment variables (MONGO_URI, JWT_SECRET) are configured in the Vercel dashboard under your backend project settings.
+---
 
-Environment Variables Setup
+## 🔒 Authentication Flow
 
-In your Vercel dashboard, go to your project settings for both frontend and backend.
+1. **Signup** → User registers with name, email, password. Password is hashed before saving.
+2. **Login** → User logs in with email & password. JWT token is generated and stored in localStorage.
+3. **Protected Routes** → Middleware (`ensureAuthenticated`) verifies JWT before allowing access.
+4. **Logout** → Clears token and user info from localStorage.
 
-Add the necessary environment variables (MONGO_URI, JWT_SECRET) for the backend.
+---
 
-For the frontend, add any public environment variables if needed (e.g., REACT_APP_API_URL pointing to your backend URL).
-
-🔒 Authentication Flow
-
-Signup → User registers with name, email, password. Password is hashed before saving.
-
-Login → User logs in with email & password. JWT token is generated and stored in localStorage.
-
-Protected Routes → Middleware (ensureAuthenticated) verifies JWT before allowing access.
-
-Logout → Clears token and user info from localStorage.
-
-📦 Build
+## 📦 Build
 
 To create a production build of the frontend:
 
+```bash
 cd frontend
 npm run build
+```
 
-This generates a build/ folder that Vercel uses for deployment.
+This generates a `build/` folder that Vercel uses for deployment.
 
-👨‍💻 Author
+---
 
-Developed by Abhijit Behera Full Stack Developer | Passionate about backend & frontend integration
+## 👨‍💻 Author
 
-📜 License
+Developed by **Abhijit Behera**\
+Full Stack Developer | Passionate about backend & frontend integration
 
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+```
+```
 This project is licensed under the MIT License.

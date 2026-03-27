@@ -40,7 +40,7 @@ function Home() {
     // Fetch products from backend API
     const fetchProducts = async () => {
         try {
-            const url = "http://localhost:8082/products";
+            const url = "https://auth-application-api.vercel.app/products";
             const headers = {
                 headers: {
                     'Authorization': localStorage.getItem('token')

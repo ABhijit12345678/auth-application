@@ -37,7 +37,7 @@ function Signup() {
         try {
 
             // API call to backend signup endpoint
-            const url = "http://localhost:8082/auth/signup";
+            const url = "https://auth-application-api.vercel.app/auth/signup";
             const response = await fetch(url, {
                 method: "POST",
                 headers: {

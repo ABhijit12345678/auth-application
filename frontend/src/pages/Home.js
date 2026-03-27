@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { handleError, handleSuccess } from '../utils';
 import { ToastContainer } from 'react-toastify';
-import {Card, CardTitle,CardText, CardBody,Button, Row, Container, Col} from "reactstrap";
+import {Card, CardTitle,CardText, CardBody,Button, Container} from "reactstrap";
 
 
 function Home() {

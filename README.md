@@ -121,6 +121,11 @@ npm run build
 
 This generates a `build/` folder that Vercel uses for deployment.
 
+Screenshots
+<img width="886" height="477" alt="image" src="https://github.com/user-attachments/assets/3e5a791a-983a-4757-821d-c8644a897b7e" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/7cb97c1a-6035-4023-b9c7-032ebcc75740" />
+
+
 ---
 
 ## 👨‍💻 Author

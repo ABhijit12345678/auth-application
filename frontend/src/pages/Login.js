@@ -35,7 +35,7 @@ function Login() {
         }
         try {
             // API call to backend login endpoint
-            const url = "http://localhost:8082/auth/login";
+            const url = "https://auth-application-api.vercel.app/auth/login";
             const response = await fetch(url, {
                 method: "POST",
                 headers: {

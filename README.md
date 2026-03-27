@@ -128,6 +128,9 @@ Screenshots
 
 
 
+<img width="840" height="545" alt="image" src="https://github.com/user-attachments/assets/987b8e04-2337-4484-98cc-2456c6bc6e74" />
+
+
 
 
 <img width="1646" height="529" alt="image" src="https://github.com/user-attachments/assets/a1ae7824-ada6-49a8-a623-f2dd63d85110" />

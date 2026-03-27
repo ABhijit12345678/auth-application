@@ -130,6 +130,10 @@ Screenshots
 
 
 
+<img width="1646" height="529" alt="image" src="https://github.com/user-attachments/assets/a1ae7824-ada6-49a8-a623-f2dd63d85110" />
+
+
+
 ---
 
 ## 👨‍💻 Author

@@ -11,7 +11,7 @@ The application is deployed on **Vercel**.
 - Password hashing with **bcrypt** 
 - Input validation with **Joi**
 - Protected routes using middleware
-- React frontend with **Reactstrap** UI components
+- React frontend with **Reactstrap** UI components 
 - Toast notifications for success/error messages
 - MongoDB integration with **Mongoose**
 - Deployment on **Vercel** 

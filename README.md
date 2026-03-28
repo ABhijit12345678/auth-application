@@ -13,7 +13,7 @@ The application is deployed on **Vercel**.
 - Protected routes using middleware
 - React frontend with **Reactstrap** UI components 
 - Toast notifications for success/error messages
-- MongoDB integration with **Mongoose**
+- MongoDB integration with **Mongoose**   
 - Deployment on **Vercel** 
 
 ---

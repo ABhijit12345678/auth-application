@@ -14,7 +14,7 @@ The application is deployed on **Vercel**.
 - React frontend with **Reactstrap** UI components
 - Toast notifications for success/error messages
 - MongoDB integration with **Mongoose**
-- Deployment on **Vercel**
+- Deployment on **Vercel**  
 
 ---
 

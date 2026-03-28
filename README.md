@@ -8,7 +8,7 @@ The application is deployed on **Vercel**.
 
 ## 🚀 Features
 - User authentication (signup & login with JWT)
-- Password hashing with **bcrypt**
+- Password hashing with **bcrypt** 
 - Input validation with **Joi**
 - Protected routes using middleware
 - React frontend with **Reactstrap** UI components

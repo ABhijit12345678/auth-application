@@ -1,6 +1,6 @@
 # Full Stack Authentication Application
 
-This is a full‑stack web application built with **React (frontend)** and **Node.js/Express (backend)**, using **MongoDB** as the database.  
+This is a full‑stack Authentication application built with **React (frontend)** and **Node.js/Express (backend)**, using **MongoDB** as the database.  
 The project includes authentication (signup/login with JWT), protected routes, and product/task management.  
 The application is deployed on **Vercel**.
 

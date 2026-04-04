@@ -75,7 +75,7 @@ function Home() {
           <Card className=" bg-light text-center ">
             <CardBody>
               <CardTitle className="text-center text-dark bg-success">
-                Task Management
+                Task Management 
               </CardTitle>
               <CardText>
                 <div className="d-flex flex-wrap justify-content-center">
